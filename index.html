@@ -138,7 +138,7 @@ small.n{display:block;text-align:center;color:var(--mut);font-size:12px;margin-t
 <script>
 // ---- QUESTIONS (exemples à remplacer) ----
 const QUESTIONS=[
- {q:"Dimanche, 6h, le réveil sonne. Tu fais quoi ?",o:["Je suis déjà en chaussures depuis 5h45","Snooze trois fois, puis je négocie avec moi-même","Je cours… dans mon rêve, ça compte"]},
+ {q:"Dimanche, 6h, le réveil sonne. Tu fais quoi ?",o:["Je suis déjà en chaussures depuis 5h45","Tout est prêt depuis la veille, je pars sans réfléchir","Je cours… dans mon rêve, ça compte"]},
  {q:"Ton rapport au dénivelé ?",o:["Je le monte en dansant","Je marche, mais avec style","Je cherche le bouton téléportation"]},
  {q:"Tes genoux, après 15 km ?",o:["Neufs, merci de demander","Ils m'envoient des messages d'avertissement","On ne se parle plus"]},
  {q:"L'allure chill, pour toi, c'est…",o:["5'30 au km, mais en discutant","Tant que je ne vois pas la lumière blanche","Marche rapide, un casque et zéro pression"]},
@@ -157,7 +157,7 @@ const PROFILS=[
  addEventListener('resize',r);r();requestAnimationFrame(t)})();
 
 // ---- STOCKAGE : Google Sheet via Apps Script (colle ton URL ci-dessous) ----
-const ENDPOINT='COLLER_ICI_L_URL_APPS_SCRIPT';
+const ENDPOINT='https://script.google.com/macros/s/AKfycbx36KhQzooyqCK8wqPzyXyuwjemV4cYdV4dmHvAJ9Bwho8zgCAg86VDRbJzsXflAsXe/exec';
 const LIVE=ENDPOINT.startsWith('https://');
 let mode=LIVE?'shared':'local',adminCode='';
 const LK='altitude_quiz_participants';
